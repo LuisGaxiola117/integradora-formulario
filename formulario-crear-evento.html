@@ -7,23 +7,35 @@
 <body>
     <div id="formulario_grande">
     <form action="guardar_evento.php" method="post">
-        <div>
-        <label for="nombre">Nombre del evento:</label>
+        <div class="div_formularios">
+        <label for="nombre" >Nombre del evento:</label>
         <input type="text" id="nombre" name="nombre" required>
         </div>
-        <br>
-        <div>
+        <hr>
+        <div class="div_formularios">
         <label for="fecha">Fecha:</label>
         <input type="date" id="fecha" name="fecha" required>
+        <div class="div_formularios">
+        <label for="Cantidad caja">Cantidad por caja:</label>
+        <input type="text" id="Cantidad caja" name="Cantidad1" required>
+    </div>
+
+        <label for="Cantidad por toma">Cantidad por toma :</label>
+        <input type="text" id="Cantidad toma" name="Cantidad3" required>
         </div>
         <br>
-        <div>
-        <label for="hora">Hora:</label>
-        <input type="time" id="hora" name="hora" required>
-        </div>
-        <br>
-        <div>
+        <div class="div_formularios">
+        <label for="hora">Intervalo de horas :</label>
+        <input type="number" id="hora" name="hora" required>
+    </div>
+    <br>
+        <label for="Cantidad pastillas">Cantidad de pastillas por caja:</label>
+        <input type="text" id="Cantidad pastillas" name="Cantidad2" required>
+       <br>
+       <hr>
+        <div class="div_formularios">
         <label for="descripcion" class="label_centrado">Descripción:</label>
+        <br>
         <textarea class="textarea" id="descripcion" name="descripcion" rows="4"></textarea>
         </div>
         <br>

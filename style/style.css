@@ -7,9 +7,9 @@ body {
     background-color: white;
     border: 3px solid black;
     border-radius: 5px;
-    width: 80vh;
-    height: 50vh;
-    padding: 10px;
+    width: 150vh;
+    height: 60vh;
+    padding: 20px;
     margin: 0 auto; 
     position: absolute;
     top: 50%;
@@ -31,6 +31,7 @@ body {
         margin: 0   ;
         display: flex;
         justify-content: center;
+        resize: none;
 }
 .input_centrado{
         width: 40%;
@@ -39,7 +40,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center; 
-    
+}
+.div_formularios{
+ padding: 3px;
+  display: flex;
+  align-items: flex-start;
+  margin: auto;
+  
 }
 button {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -57,6 +64,7 @@ button {
     align-items: center; 
     margin: 0 auto; 
   }
+  
 .transition {
     transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
     transition-duration: 500ms;
