@@ -1,7 +1,7 @@
 body {
     background: rgb(112, 132, 219);
     background: linear-gradient(90deg, rgba(112, 132, 219, 1) 0%, rgba(112, 200, 219, 1) 50%, rgba(94, 216, 159, 1) 100%);
-    animation: gradientAnimation 2s infinite alternate; 
+    animation: gradientAnimation() 2s infinite alternate; 
 }
 #formulario_grande {
     background-color: white;
